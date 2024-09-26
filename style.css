@@ -1,0 +1,99 @@
+/* Table cells */
+
+table,td{
+    border: 1px solid #3f3832;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 7px;
+}
+
+/* Table */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 0px auto;
+    font-size: 20px;
+    width: 80%;
+    border-spacing: 0px;
+    border: 1px ;
+    padding: 1px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0px 4px 16px -4px #2C5F2D;
+}
+table tr:hover{
+    background-color: #97BC62;
+}
+
+/* Table head */
+.table-title {
+    color: #1b1b1b;
+    font-weight: 600;
+    background-color: #2C5F2D;
+    height: 40px;
+    padding: 10px 5px;
+    color: white;
+}
+/* Table subhead or field */
+.table-head {
+    color: #1b1b1b;
+    font-weight: 600;
+    background-color: #97BC62;
+    height: 35px;
+    padding: 10px;
+}
+table td{
+    border-bottom: 1px solid black;
+    padding: 12px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+table tr{
+    border: 1px solid black;
+    padding: 12px;
+}
+
+/* Notice section */
+.notice {
+    padding: 10px;
+    background-color: #2C5F2D;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    box-shadow: 0px 4px 16px -4px #2C5F2D;
+}
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    background-color: whitesmoke;
+}
+/* Paragraph */
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
+}
+/* Division */
+div {
+    margin: 1px;
+    padding: 1px;
+}
+/* Print button */
+.print-button{
+    width: 13px;
+    height: 13px;
+    float:right;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 3px;
+    padding: 6px;
+    background-color: #ffffff;
+    filter: grayscale(100%) brightness(80%);
+}
+/* Hover */
+.print-button:hover{
+    filter: brightness(90%);
+    border: 1px solid #1f1f1f;
+}
